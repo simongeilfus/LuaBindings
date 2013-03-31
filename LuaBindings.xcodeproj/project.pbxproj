@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B53B0A0170859BD00F986F0 /* BindCinderApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B06E170859BD00F986F0 /* BindCinderApp.cpp */; };
+		4B53B0A1170859BD00F986F0 /* BindCinderApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B06F170859BD00F986F0 /* BindCinderApp.h */; };
+		4B53B0A2170859BD00F986F0 /* BindCinderArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B070170859BD00F986F0 /* BindCinderArea.cpp */; };
+		4B53B0A3170859BD00F986F0 /* BindCinderArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B071170859BD00F986F0 /* BindCinderArea.h */; };
+		4B53B0A4170859BD00F986F0 /* BindCinderCamera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B072170859BD00F986F0 /* BindCinderCamera.cpp */; };
+		4B53B0A5170859BD00F986F0 /* BindCinderCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B073170859BD00F986F0 /* BindCinderCamera.h */; };
+		4B53B0A6170859BD00F986F0 /* BindCinderColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B074170859BD00F986F0 /* BindCinderColor.cpp */; };
+		4B53B0A7170859BD00F986F0 /* BindCinderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B075170859BD00F986F0 /* BindCinderColor.h */; };
+		4B53B0A8170859BD00F986F0 /* BindCinderEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B076170859BD00F986F0 /* BindCinderEvent.cpp */; };
+		4B53B0A9170859BD00F986F0 /* BindCinderEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B077170859BD00F986F0 /* BindCinderEvent.h */; };
+		4B53B0AA170859BD00F986F0 /* BindCinderFbo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B078170859BD00F986F0 /* BindCinderFbo.cpp */; };
+		4B53B0AB170859BD00F986F0 /* BindCinderFbo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B079170859BD00F986F0 /* BindCinderFbo.h */; };
+		4B53B0AC170859BD00F986F0 /* BindCinderFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B07A170859BD00F986F0 /* BindCinderFont.cpp */; };
+		4B53B0AD170859BD00F986F0 /* BindCinderFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B07B170859BD00F986F0 /* BindCinderFont.h */; };
+		4B53B0AE170859BD00F986F0 /* BindCinderGl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B07C170859BD00F986F0 /* BindCinderGl.cpp */; };
+		4B53B0AF170859BD00F986F0 /* BindCinderGl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B07D170859BD00F986F0 /* BindCinderGl.h */; };
+		4B53B0B0170859BD00F986F0 /* BindCinderGlslProg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B07E170859BD00F986F0 /* BindCinderGlslProg.cpp */; };
+		4B53B0B1170859BD00F986F0 /* BindCinderGlslProg.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B07F170859BD00F986F0 /* BindCinderGlslProg.h */; };
+		4B53B0B2170859BD00F986F0 /* BindCinderMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B080170859BD00F986F0 /* BindCinderMatrix.cpp */; };
+		4B53B0B3170859BD00F986F0 /* BindCinderMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B081170859BD00F986F0 /* BindCinderMatrix.h */; };
+		4B53B0B4170859BD00F986F0 /* BindCinderMayaCamUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B082170859BD00F986F0 /* BindCinderMayaCamUI.cpp */; };
+		4B53B0B5170859BD00F986F0 /* BindCinderMayaCamUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B083170859BD00F986F0 /* BindCinderMayaCamUI.h */; };
+		4B53B0B6170859BD00F986F0 /* BindCinderPerlin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B084170859BD00F986F0 /* BindCinderPerlin.cpp */; };
+		4B53B0B7170859BD00F986F0 /* BindCinderPerlin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B085170859BD00F986F0 /* BindCinderPerlin.h */; };
+		4B53B0B8170859BD00F986F0 /* BindCinderRand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B086170859BD00F986F0 /* BindCinderRand.cpp */; };
+		4B53B0B9170859BD00F986F0 /* BindCinderRand.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B087170859BD00F986F0 /* BindCinderRand.h */; };
+		4B53B0BA170859BD00F986F0 /* BindCinderRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B088170859BD00F986F0 /* BindCinderRect.cpp */; };
+		4B53B0BB170859BD00F986F0 /* BindCinderRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B089170859BD00F986F0 /* BindCinderRect.h */; };
+		4B53B0BC170859BD00F986F0 /* BindCinderResources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B08A170859BD00F986F0 /* BindCinderResources.cpp */; };
+		4B53B0BD170859BD00F986F0 /* BindCinderResources.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B08B170859BD00F986F0 /* BindCinderResources.h */; };
+		4B53B0BE170859BD00F986F0 /* BindCinderSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B08C170859BD00F986F0 /* BindCinderSurface.cpp */; };
+		4B53B0BF170859BD00F986F0 /* BindCinderSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B08D170859BD00F986F0 /* BindCinderSurface.h */; };
+		4B53B0C0170859BD00F986F0 /* BindCinderText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B08E170859BD00F986F0 /* BindCinderText.cpp */; };
+		4B53B0C1170859BD00F986F0 /* BindCinderText.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B08F170859BD00F986F0 /* BindCinderText.h */; };
+		4B53B0C2170859BD00F986F0 /* BindCinderTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B090170859BD00F986F0 /* BindCinderTexture.cpp */; };
+		4B53B0C3170859BD00F986F0 /* BindCinderTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B091170859BD00F986F0 /* BindCinderTexture.h */; };
+		4B53B0C4170859BD00F986F0 /* BindCinderTriMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B092170859BD00F986F0 /* BindCinderTriMesh.cpp */; };
+		4B53B0C5170859BD00F986F0 /* BindCinderTriMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B093170859BD00F986F0 /* BindCinderTriMesh.h */; };
+		4B53B0C6170859BD00F986F0 /* BindCinderUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B094170859BD00F986F0 /* BindCinderUtilities.cpp */; };
+		4B53B0C7170859BD00F986F0 /* BindCinderUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B095170859BD00F986F0 /* BindCinderUtilities.h */; };
+		4B53B0C8170859BD00F986F0 /* BindCinderVbo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B096170859BD00F986F0 /* BindCinderVbo.cpp */; };
+		4B53B0C9170859BD00F986F0 /* BindCinderVbo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B097170859BD00F986F0 /* BindCinderVbo.h */; };
+		4B53B0CA170859BD00F986F0 /* BindCinderVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B098170859BD00F986F0 /* BindCinderVector.cpp */; };
+		4B53B0CB170859BD00F986F0 /* BindCinderVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B099170859BD00F986F0 /* BindCinderVector.h */; };
+		4B53B0CE170859BD00F986F0 /* BindStdVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B09C170859BD00F986F0 /* BindStdVector.cpp */; };
+		4B53B0CF170859BD00F986F0 /* BindStdVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B09D170859BD00F986F0 /* BindStdVector.h */; };
+		4B53B0D317085C7C00F986F0 /* LuaBindings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B0D117085C7A00F986F0 /* LuaBindings.cpp */; };
+		4B53B0D417085C7C00F986F0 /* LuaBindings.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B0D217085C7B00F986F0 /* LuaBindings.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B53B0641708598B00F986F0 /* libLuaBindings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLuaBindings.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B53B06E170859BD00F986F0 /* BindCinderApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderApp.cpp; path = src/BindCinderApp.cpp; sourceTree = "<group>"; };
+		4B53B06F170859BD00F986F0 /* BindCinderApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderApp.h; path = src/BindCinderApp.h; sourceTree = "<group>"; };
+		4B53B070170859BD00F986F0 /* BindCinderArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderArea.cpp; path = src/BindCinderArea.cpp; sourceTree = "<group>"; };
+		4B53B071170859BD00F986F0 /* BindCinderArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderArea.h; path = src/BindCinderArea.h; sourceTree = "<group>"; };
+		4B53B072170859BD00F986F0 /* BindCinderCamera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderCamera.cpp; path = src/BindCinderCamera.cpp; sourceTree = "<group>"; };
+		4B53B073170859BD00F986F0 /* BindCinderCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderCamera.h; path = src/BindCinderCamera.h; sourceTree = "<group>"; };
+		4B53B074170859BD00F986F0 /* BindCinderColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderColor.cpp; path = src/BindCinderColor.cpp; sourceTree = "<group>"; };
+		4B53B075170859BD00F986F0 /* BindCinderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderColor.h; path = src/BindCinderColor.h; sourceTree = "<group>"; };
+		4B53B076170859BD00F986F0 /* BindCinderEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderEvent.cpp; path = src/BindCinderEvent.cpp; sourceTree = "<group>"; };
+		4B53B077170859BD00F986F0 /* BindCinderEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderEvent.h; path = src/BindCinderEvent.h; sourceTree = "<group>"; };
+		4B53B078170859BD00F986F0 /* BindCinderFbo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderFbo.cpp; path = src/BindCinderFbo.cpp; sourceTree = "<group>"; };
+		4B53B079170859BD00F986F0 /* BindCinderFbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderFbo.h; path = src/BindCinderFbo.h; sourceTree = "<group>"; };
+		4B53B07A170859BD00F986F0 /* BindCinderFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderFont.cpp; path = src/BindCinderFont.cpp; sourceTree = "<group>"; };
+		4B53B07B170859BD00F986F0 /* BindCinderFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderFont.h; path = src/BindCinderFont.h; sourceTree = "<group>"; };
+		4B53B07C170859BD00F986F0 /* BindCinderGl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderGl.cpp; path = src/BindCinderGl.cpp; sourceTree = "<group>"; };
+		4B53B07D170859BD00F986F0 /* BindCinderGl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderGl.h; path = src/BindCinderGl.h; sourceTree = "<group>"; };
+		4B53B07E170859BD00F986F0 /* BindCinderGlslProg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderGlslProg.cpp; path = src/BindCinderGlslProg.cpp; sourceTree = "<group>"; };
+		4B53B07F170859BD00F986F0 /* BindCinderGlslProg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderGlslProg.h; path = src/BindCinderGlslProg.h; sourceTree = "<group>"; };
+		4B53B080170859BD00F986F0 /* BindCinderMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderMatrix.cpp; path = src/BindCinderMatrix.cpp; sourceTree = "<group>"; };
+		4B53B081170859BD00F986F0 /* BindCinderMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderMatrix.h; path = src/BindCinderMatrix.h; sourceTree = "<group>"; };
+		4B53B082170859BD00F986F0 /* BindCinderMayaCamUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderMayaCamUI.cpp; path = src/BindCinderMayaCamUI.cpp; sourceTree = "<group>"; };
+		4B53B083170859BD00F986F0 /* BindCinderMayaCamUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderMayaCamUI.h; path = src/BindCinderMayaCamUI.h; sourceTree = "<group>"; };
+		4B53B084170859BD00F986F0 /* BindCinderPerlin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderPerlin.cpp; path = src/BindCinderPerlin.cpp; sourceTree = "<group>"; };
+		4B53B085170859BD00F986F0 /* BindCinderPerlin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderPerlin.h; path = src/BindCinderPerlin.h; sourceTree = "<group>"; };
+		4B53B086170859BD00F986F0 /* BindCinderRand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderRand.cpp; path = src/BindCinderRand.cpp; sourceTree = "<group>"; };
+		4B53B087170859BD00F986F0 /* BindCinderRand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderRand.h; path = src/BindCinderRand.h; sourceTree = "<group>"; };
+		4B53B088170859BD00F986F0 /* BindCinderRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderRect.cpp; path = src/BindCinderRect.cpp; sourceTree = "<group>"; };
+		4B53B089170859BD00F986F0 /* BindCinderRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderRect.h; path = src/BindCinderRect.h; sourceTree = "<group>"; };
+		4B53B08A170859BD00F986F0 /* BindCinderResources.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderResources.cpp; path = src/BindCinderResources.cpp; sourceTree = "<group>"; };
+		4B53B08B170859BD00F986F0 /* BindCinderResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderResources.h; path = src/BindCinderResources.h; sourceTree = "<group>"; };
+		4B53B08C170859BD00F986F0 /* BindCinderSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderSurface.cpp; path = src/BindCinderSurface.cpp; sourceTree = "<group>"; };
+		4B53B08D170859BD00F986F0 /* BindCinderSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderSurface.h; path = src/BindCinderSurface.h; sourceTree = "<group>"; };
+		4B53B08E170859BD00F986F0 /* BindCinderText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderText.cpp; path = src/BindCinderText.cpp; sourceTree = "<group>"; };
+		4B53B08F170859BD00F986F0 /* BindCinderText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderText.h; path = src/BindCinderText.h; sourceTree = "<group>"; };
+		4B53B090170859BD00F986F0 /* BindCinderTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderTexture.cpp; path = src/BindCinderTexture.cpp; sourceTree = "<group>"; };
+		4B53B091170859BD00F986F0 /* BindCinderTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderTexture.h; path = src/BindCinderTexture.h; sourceTree = "<group>"; };
+		4B53B092170859BD00F986F0 /* BindCinderTriMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderTriMesh.cpp; path = src/BindCinderTriMesh.cpp; sourceTree = "<group>"; };
+		4B53B093170859BD00F986F0 /* BindCinderTriMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderTriMesh.h; path = src/BindCinderTriMesh.h; sourceTree = "<group>"; };
+		4B53B094170859BD00F986F0 /* BindCinderUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderUtilities.cpp; path = src/BindCinderUtilities.cpp; sourceTree = "<group>"; };
+		4B53B095170859BD00F986F0 /* BindCinderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderUtilities.h; path = src/BindCinderUtilities.h; sourceTree = "<group>"; };
+		4B53B096170859BD00F986F0 /* BindCinderVbo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderVbo.cpp; path = src/BindCinderVbo.cpp; sourceTree = "<group>"; };
+		4B53B097170859BD00F986F0 /* BindCinderVbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderVbo.h; path = src/BindCinderVbo.h; sourceTree = "<group>"; };
+		4B53B098170859BD00F986F0 /* BindCinderVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderVector.cpp; path = src/BindCinderVector.cpp; sourceTree = "<group>"; };
+		4B53B099170859BD00F986F0 /* BindCinderVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderVector.h; path = src/BindCinderVector.h; sourceTree = "<group>"; };
+		4B53B09C170859BD00F986F0 /* BindStdVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindStdVector.cpp; path = src/BindStdVector.cpp; sourceTree = "<group>"; };
+		4B53B09D170859BD00F986F0 /* BindStdVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindStdVector.h; path = src/BindStdVector.h; sourceTree = "<group>"; };
+		4B53B0D117085C7A00F986F0 /* LuaBindings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LuaBindings.cpp; path = src/LuaBindings.cpp; sourceTree = "<group>"; };
+		4B53B0D217085C7B00F986F0 /* LuaBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaBindings.h; path = src/LuaBindings.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B53B0611708598B00F986F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B53B05B1708598B00F986F0 = {
+			isa = PBXGroup;
+			children = (
+				4B53B06B1708599100F986F0 /* src */,
+				4B53B0651708598B00F986F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B53B0651708598B00F986F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B53B0641708598B00F986F0 /* libLuaBindings.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B53B06B1708599100F986F0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4B53B06E170859BD00F986F0 /* BindCinderApp.cpp */,
+				4B53B06F170859BD00F986F0 /* BindCinderApp.h */,
+				4B53B070170859BD00F986F0 /* BindCinderArea.cpp */,
+				4B53B071170859BD00F986F0 /* BindCinderArea.h */,
+				4B53B072170859BD00F986F0 /* BindCinderCamera.cpp */,
+				4B53B073170859BD00F986F0 /* BindCinderCamera.h */,
+				4B53B074170859BD00F986F0 /* BindCinderColor.cpp */,
+				4B53B075170859BD00F986F0 /* BindCinderColor.h */,
+				4B53B076170859BD00F986F0 /* BindCinderEvent.cpp */,
+				4B53B077170859BD00F986F0 /* BindCinderEvent.h */,
+				4B53B078170859BD00F986F0 /* BindCinderFbo.cpp */,
+				4B53B079170859BD00F986F0 /* BindCinderFbo.h */,
+				4B53B07A170859BD00F986F0 /* BindCinderFont.cpp */,
+				4B53B07B170859BD00F986F0 /* BindCinderFont.h */,
+				4B53B07C170859BD00F986F0 /* BindCinderGl.cpp */,
+				4B53B07D170859BD00F986F0 /* BindCinderGl.h */,
+				4B53B07E170859BD00F986F0 /* BindCinderGlslProg.cpp */,
+				4B53B07F170859BD00F986F0 /* BindCinderGlslProg.h */,
+				4B53B080170859BD00F986F0 /* BindCinderMatrix.cpp */,
+				4B53B081170859BD00F986F0 /* BindCinderMatrix.h */,
+				4B53B082170859BD00F986F0 /* BindCinderMayaCamUI.cpp */,
+				4B53B083170859BD00F986F0 /* BindCinderMayaCamUI.h */,
+				4B53B084170859BD00F986F0 /* BindCinderPerlin.cpp */,
+				4B53B085170859BD00F986F0 /* BindCinderPerlin.h */,
+				4B53B086170859BD00F986F0 /* BindCinderRand.cpp */,
+				4B53B087170859BD00F986F0 /* BindCinderRand.h */,
+				4B53B088170859BD00F986F0 /* BindCinderRect.cpp */,
+				4B53B089170859BD00F986F0 /* BindCinderRect.h */,
+				4B53B08A170859BD00F986F0 /* BindCinderResources.cpp */,
+				4B53B08B170859BD00F986F0 /* BindCinderResources.h */,
+				4B53B08C170859BD00F986F0 /* BindCinderSurface.cpp */,
+				4B53B08D170859BD00F986F0 /* BindCinderSurface.h */,
+				4B53B08E170859BD00F986F0 /* BindCinderText.cpp */,
+				4B53B08F170859BD00F986F0 /* BindCinderText.h */,
+				4B53B090170859BD00F986F0 /* BindCinderTexture.cpp */,
+				4B53B091170859BD00F986F0 /* BindCinderTexture.h */,
+				4B53B092170859BD00F986F0 /* BindCinderTriMesh.cpp */,
+				4B53B093170859BD00F986F0 /* BindCinderTriMesh.h */,
+				4B53B094170859BD00F986F0 /* BindCinderUtilities.cpp */,
+				4B53B095170859BD00F986F0 /* BindCinderUtilities.h */,
+				4B53B096170859BD00F986F0 /* BindCinderVbo.cpp */,
+				4B53B097170859BD00F986F0 /* BindCinderVbo.h */,
+				4B53B098170859BD00F986F0 /* BindCinderVector.cpp */,
+				4B53B099170859BD00F986F0 /* BindCinderVector.h */,
+				4B53B09C170859BD00F986F0 /* BindStdVector.cpp */,
+				4B53B09D170859BD00F986F0 /* BindStdVector.h */,
+				4B53B0D117085C7A00F986F0 /* LuaBindings.cpp */,
+				4B53B0D217085C7B00F986F0 /* LuaBindings.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B53B0621708598B00F986F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B53B0A1170859BD00F986F0 /* BindCinderApp.h in Headers */,
+				4B53B0A3170859BD00F986F0 /* BindCinderArea.h in Headers */,
+				4B53B0A5170859BD00F986F0 /* BindCinderCamera.h in Headers */,
+				4B53B0A7170859BD00F986F0 /* BindCinderColor.h in Headers */,
+				4B53B0A9170859BD00F986F0 /* BindCinderEvent.h in Headers */,
+				4B53B0AB170859BD00F986F0 /* BindCinderFbo.h in Headers */,
+				4B53B0AD170859BD00F986F0 /* BindCinderFont.h in Headers */,
+				4B53B0AF170859BD00F986F0 /* BindCinderGl.h in Headers */,
+				4B53B0B1170859BD00F986F0 /* BindCinderGlslProg.h in Headers */,
+				4B53B0B3170859BD00F986F0 /* BindCinderMatrix.h in Headers */,
+				4B53B0B5170859BD00F986F0 /* BindCinderMayaCamUI.h in Headers */,
+				4B53B0B7170859BD00F986F0 /* BindCinderPerlin.h in Headers */,
+				4B53B0B9170859BD00F986F0 /* BindCinderRand.h in Headers */,
+				4B53B0BB170859BD00F986F0 /* BindCinderRect.h in Headers */,
+				4B53B0BD170859BD00F986F0 /* BindCinderResources.h in Headers */,
+				4B53B0BF170859BD00F986F0 /* BindCinderSurface.h in Headers */,
+				4B53B0C1170859BD00F986F0 /* BindCinderText.h in Headers */,
+				4B53B0C3170859BD00F986F0 /* BindCinderTexture.h in Headers */,
+				4B53B0C5170859BD00F986F0 /* BindCinderTriMesh.h in Headers */,
+				4B53B0C7170859BD00F986F0 /* BindCinderUtilities.h in Headers */,
+				4B53B0C9170859BD00F986F0 /* BindCinderVbo.h in Headers */,
+				4B53B0CB170859BD00F986F0 /* BindCinderVector.h in Headers */,
+				4B53B0CF170859BD00F986F0 /* BindStdVector.h in Headers */,
+				4B53B0D417085C7C00F986F0 /* LuaBindings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B53B0631708598B00F986F0 /* LuaBindings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B53B0681708598B00F986F0 /* Build configuration list for PBXNativeTarget "LuaBindings" */;
+			buildPhases = (
+				4B53B0601708598B00F986F0 /* Sources */,
+				4B53B0611708598B00F986F0 /* Frameworks */,
+				4B53B0621708598B00F986F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuaBindings;
+			productName = LuaBindings;
+			productReference = 4B53B0641708598B00F986F0 /* libLuaBindings.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B53B05C1708598B00F986F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Simon Geilfus";
+			};
+			buildConfigurationList = 4B53B05F1708598B00F986F0 /* Build configuration list for PBXProject "LuaBindings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B53B05B1708598B00F986F0;
+			productRefGroup = 4B53B0651708598B00F986F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B53B0631708598B00F986F0 /* LuaBindings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B53B0601708598B00F986F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B53B0A0170859BD00F986F0 /* BindCinderApp.cpp in Sources */,
+				4B53B0A2170859BD00F986F0 /* BindCinderArea.cpp in Sources */,
+				4B53B0A4170859BD00F986F0 /* BindCinderCamera.cpp in Sources */,
+				4B53B0A6170859BD00F986F0 /* BindCinderColor.cpp in Sources */,
+				4B53B0A8170859BD00F986F0 /* BindCinderEvent.cpp in Sources */,
+				4B53B0AA170859BD00F986F0 /* BindCinderFbo.cpp in Sources */,
+				4B53B0AC170859BD00F986F0 /* BindCinderFont.cpp in Sources */,
+				4B53B0AE170859BD00F986F0 /* BindCinderGl.cpp in Sources */,
+				4B53B0B0170859BD00F986F0 /* BindCinderGlslProg.cpp in Sources */,
+				4B53B0B2170859BD00F986F0 /* BindCinderMatrix.cpp in Sources */,
+				4B53B0B4170859BD00F986F0 /* BindCinderMayaCamUI.cpp in Sources */,
+				4B53B0B6170859BD00F986F0 /* BindCinderPerlin.cpp in Sources */,
+				4B53B0B8170859BD00F986F0 /* BindCinderRand.cpp in Sources */,
+				4B53B0BA170859BD00F986F0 /* BindCinderRect.cpp in Sources */,
+				4B53B0BC170859BD00F986F0 /* BindCinderResources.cpp in Sources */,
+				4B53B0BE170859BD00F986F0 /* BindCinderSurface.cpp in Sources */,
+				4B53B0C0170859BD00F986F0 /* BindCinderText.cpp in Sources */,
+				4B53B0C2170859BD00F986F0 /* BindCinderTexture.cpp in Sources */,
+				4B53B0C4170859BD00F986F0 /* BindCinderTriMesh.cpp in Sources */,
+				4B53B0C6170859BD00F986F0 /* BindCinderUtilities.cpp in Sources */,
+				4B53B0C8170859BD00F986F0 /* BindCinderVbo.cpp in Sources */,
+				4B53B0CA170859BD00F986F0 /* BindCinderVector.cpp in Sources */,
+				4B53B0CE170859BD00F986F0 /* BindStdVector.cpp in Sources */,
+				4B53B0D317085C7C00F986F0 /* LuaBindings.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B53B0661708598B00F986F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"/Frameworks/Cinder/cinder_master/boost\"",
+					"\"/Frameworks/Cinder/cinder_master/blocks/Cinder-LuaBind/include\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Frameworks/Cinder/cinder_master/include /Frameworks/Cinder/cinder_master/blocks/Cinder-LuaBind/include";
+			};
+			name = Debug;
+		};
+		4B53B0671708598B00F986F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"/Frameworks/Cinder/cinder_master/boost\"",
+					"\"/Frameworks/Cinder/cinder_master/blocks/Cinder-LuaBind/include\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Frameworks/Cinder/cinder_master/include /Frameworks/Cinder/cinder_master/blocks/Cinder-LuaBind/include";
+			};
+			name = Release;
+		};
+		4B53B0691708598B00F986F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B53B06A1708598B00F986F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B53B05F1708598B00F986F0 /* Build configuration list for PBXProject "LuaBindings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B53B0661708598B00F986F0 /* Debug */,
+				4B53B0671708598B00F986F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B53B0681708598B00F986F0 /* Build configuration list for PBXNativeTarget "LuaBindings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B53B0691708598B00F986F0 /* Debug */,
+				4B53B06A1708598B00F986F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B53B05C1708598B00F986F0 /* Project object */;
+}
