@@ -13,6 +13,7 @@
 #include "BindCinderApp.h"
 #include "BindCinderArea.h"
 #include "BindCinderCamera.h"
+#include "BindCinderChannel.h"
 #include "BindCinderColor.h"
 #include "BindCinderEvent.h"
 #include "BindCinderFbo.h"
@@ -50,6 +51,7 @@ namespace lua { namespace Bindings {
         bindCinderColor( state );
         bindCinderResources( state );
         bindCinderTexture( state );
+        bindCinderChannel( state );
         bindCinderSurface( state );
         bindCinderFont( state );
         bindCinderText( state );

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B31BFE81716FEF80021DDB0 /* BindCinderChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B31BFE61716FEF80021DDB0 /* BindCinderChannel.cpp */; };
+		4B31BFE91716FEF80021DDB0 /* BindCinderChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B31BFE71716FEF80021DDB0 /* BindCinderChannel.h */; };
 		4B53B0A0170859BD00F986F0 /* BindCinderApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B06E170859BD00F986F0 /* BindCinderApp.cpp */; };
 		4B53B0A1170859BD00F986F0 /* BindCinderApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B06F170859BD00F986F0 /* BindCinderApp.h */; };
 		4B53B0A2170859BD00F986F0 /* BindCinderArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B070170859BD00F986F0 /* BindCinderArea.cpp */; };
@@ -58,6 +60,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B31BFE61716FEF80021DDB0 /* BindCinderChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderChannel.cpp; path = src/BindCinderChannel.cpp; sourceTree = "<group>"; };
+		4B31BFE71716FEF80021DDB0 /* BindCinderChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderChannel.h; path = src/BindCinderChannel.h; sourceTree = "<group>"; };
 		4B53B0641708598B00F986F0 /* libLuaBindings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLuaBindings.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B53B06E170859BD00F986F0 /* BindCinderApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderApp.cpp; path = src/BindCinderApp.cpp; sourceTree = "<group>"; };
 		4B53B06F170859BD00F986F0 /* BindCinderApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderApp.h; path = src/BindCinderApp.h; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				4B53B071170859BD00F986F0 /* BindCinderArea.h */,
 				4B53B072170859BD00F986F0 /* BindCinderCamera.cpp */,
 				4B53B073170859BD00F986F0 /* BindCinderCamera.h */,
+				4B31BFE61716FEF80021DDB0 /* BindCinderChannel.cpp */,
+				4B31BFE71716FEF80021DDB0 /* BindCinderChannel.h */,
 				4B53B074170859BD00F986F0 /* BindCinderColor.cpp */,
 				4B53B075170859BD00F986F0 /* BindCinderColor.h */,
 				4B53B076170859BD00F986F0 /* BindCinderEvent.cpp */,
@@ -222,6 +228,7 @@
 				4B53B0CB170859BD00F986F0 /* BindCinderVector.h in Headers */,
 				4B53B0CF170859BD00F986F0 /* BindStdVector.h in Headers */,
 				4B53B0D417085C7C00F986F0 /* LuaBindings.h in Headers */,
+				4B31BFE91716FEF80021DDB0 /* BindCinderChannel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +307,7 @@
 				4B53B0CA170859BD00F986F0 /* BindCinderVector.cpp in Sources */,
 				4B53B0CE170859BD00F986F0 /* BindStdVector.cpp in Sources */,
 				4B53B0D317085C7C00F986F0 /* LuaBindings.cpp in Sources */,
+				4B31BFE81716FEF80021DDB0 /* BindCinderChannel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +416,7 @@
 				4B53B06A1708598B00F986F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
