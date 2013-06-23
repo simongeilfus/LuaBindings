@@ -23,6 +23,7 @@
 #include "BindCinderMatrix.h"
 #include "BindCinderMayaCamUI.h"
 #include "BindCinderPerlin.h"
+#include "BindCinderQuaternion.h"
 #include "BindCinderRand.h"
 #include "BindCinderRect.h"
 #include "BindCinderResources.h"
@@ -57,6 +58,7 @@ namespace lua { namespace Bindings {
         bindCinderText( state );
         bindCinderTriMesh( state );
         bindCinderRand( state );
+        bindCinderQuaternion( state );
         bindCinderPerlin( state );
         bindCinderGL( state );
         bindCinderGlslProg( state );

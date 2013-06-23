@@ -51,8 +51,8 @@
 		4B53B0C7170859BD00F986F0 /* BindCinderUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B095170859BD00F986F0 /* BindCinderUtilities.h */; };
 		4B53B0C8170859BD00F986F0 /* BindCinderVbo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B096170859BD00F986F0 /* BindCinderVbo.cpp */; };
 		4B53B0C9170859BD00F986F0 /* BindCinderVbo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B097170859BD00F986F0 /* BindCinderVbo.h */; };
-		4B53B0CA170859BD00F986F0 /* BindCinderVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B098170859BD00F986F0 /* BindCinderVector.cpp */; };
-		4B53B0CB170859BD00F986F0 /* BindCinderVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B099170859BD00F986F0 /* BindCinderVector.h */; };
+		4B53B0CA170859BD00F986F0 /* BindCinderQuaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B098170859BD00F986F0 /* BindCinderQuaternion.cpp */; };
+		4B53B0CB170859BD00F986F0 /* BindCinderQuaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B099170859BD00F986F0 /* BindCinderQuaternion.h */; };
 		4B53B0CE170859BD00F986F0 /* BindStdVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B09C170859BD00F986F0 /* BindStdVector.cpp */; };
 		4B53B0CF170859BD00F986F0 /* BindStdVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53B09D170859BD00F986F0 /* BindStdVector.h */; };
 		4B53B0D317085C7C00F986F0 /* LuaBindings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B53B0D117085C7A00F986F0 /* LuaBindings.cpp */; };
@@ -105,8 +105,8 @@
 		4B53B095170859BD00F986F0 /* BindCinderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderUtilities.h; path = src/BindCinderUtilities.h; sourceTree = "<group>"; };
 		4B53B096170859BD00F986F0 /* BindCinderVbo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderVbo.cpp; path = src/BindCinderVbo.cpp; sourceTree = "<group>"; };
 		4B53B097170859BD00F986F0 /* BindCinderVbo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderVbo.h; path = src/BindCinderVbo.h; sourceTree = "<group>"; };
-		4B53B098170859BD00F986F0 /* BindCinderVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderVector.cpp; path = src/BindCinderVector.cpp; sourceTree = "<group>"; };
-		4B53B099170859BD00F986F0 /* BindCinderVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderVector.h; path = src/BindCinderVector.h; sourceTree = "<group>"; };
+		4B53B098170859BD00F986F0 /* BindCinderQuaternion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindCinderQuaternion.cpp; path = src/BindCinderQuaternion.cpp; sourceTree = "<group>"; };
+		4B53B099170859BD00F986F0 /* BindCinderQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindCinderQuaternion.h; path = src/BindCinderQuaternion.h; sourceTree = "<group>"; };
 		4B53B09C170859BD00F986F0 /* BindStdVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BindStdVector.cpp; path = src/BindStdVector.cpp; sourceTree = "<group>"; };
 		4B53B09D170859BD00F986F0 /* BindStdVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BindStdVector.h; path = src/BindStdVector.h; sourceTree = "<group>"; };
 		4B53B0D117085C7A00F986F0 /* LuaBindings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LuaBindings.cpp; path = src/LuaBindings.cpp; sourceTree = "<group>"; };
@@ -169,6 +169,8 @@
 				4B53B083170859BD00F986F0 /* BindCinderMayaCamUI.h */,
 				4B53B084170859BD00F986F0 /* BindCinderPerlin.cpp */,
 				4B53B085170859BD00F986F0 /* BindCinderPerlin.h */,
+				4B53B098170859BD00F986F0 /* BindCinderQuaternion.cpp */,
+				4B53B099170859BD00F986F0 /* BindCinderQuaternion.h */,
 				4B53B086170859BD00F986F0 /* BindCinderRand.cpp */,
 				4B53B087170859BD00F986F0 /* BindCinderRand.h */,
 				4B53B088170859BD00F986F0 /* BindCinderRect.cpp */,
@@ -187,8 +189,6 @@
 				4B53B095170859BD00F986F0 /* BindCinderUtilities.h */,
 				4B53B096170859BD00F986F0 /* BindCinderVbo.cpp */,
 				4B53B097170859BD00F986F0 /* BindCinderVbo.h */,
-				4B53B098170859BD00F986F0 /* BindCinderVector.cpp */,
-				4B53B099170859BD00F986F0 /* BindCinderVector.h */,
 				4B53B09C170859BD00F986F0 /* BindStdVector.cpp */,
 				4B53B09D170859BD00F986F0 /* BindStdVector.h */,
 				4B53B0D117085C7A00F986F0 /* LuaBindings.cpp */,
@@ -225,7 +225,7 @@
 				4B53B0C5170859BD00F986F0 /* BindCinderTriMesh.h in Headers */,
 				4B53B0C7170859BD00F986F0 /* BindCinderUtilities.h in Headers */,
 				4B53B0C9170859BD00F986F0 /* BindCinderVbo.h in Headers */,
-				4B53B0CB170859BD00F986F0 /* BindCinderVector.h in Headers */,
+				4B53B0CB170859BD00F986F0 /* BindCinderQuaternion.h in Headers */,
 				4B53B0CF170859BD00F986F0 /* BindStdVector.h in Headers */,
 				4B53B0D417085C7C00F986F0 /* LuaBindings.h in Headers */,
 				4B31BFE91716FEF80021DDB0 /* BindCinderChannel.h in Headers */,
@@ -304,7 +304,7 @@
 				4B53B0C4170859BD00F986F0 /* BindCinderTriMesh.cpp in Sources */,
 				4B53B0C6170859BD00F986F0 /* BindCinderUtilities.cpp in Sources */,
 				4B53B0C8170859BD00F986F0 /* BindCinderVbo.cpp in Sources */,
-				4B53B0CA170859BD00F986F0 /* BindCinderVector.cpp in Sources */,
+				4B53B0CA170859BD00F986F0 /* BindCinderQuaternion.cpp in Sources */,
 				4B53B0CE170859BD00F986F0 /* BindStdVector.cpp in Sources */,
 				4B53B0D317085C7C00F986F0 /* LuaBindings.cpp in Sources */,
 				4B31BFE81716FEF80021DDB0 /* BindCinderChannel.cpp in Sources */,
