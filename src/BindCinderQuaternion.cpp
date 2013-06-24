@@ -18,6 +18,73 @@ namespace lua { namespace Bindings {
         module( state ) [
                          class_<Quatf>("Quatf")
                          .def(constructor<>())
+                         .def(constructor<Quatf>())
+                         .def(constructor<float,float,float,float>())
+                         .def(constructor<const Vec3f&,float>())
+                         .def(constructor<const Vec3f&,const Vec3f&>())
+                         .def(constructor<float,float,float>())
+                         .def(constructor<const Matrix33f &>())
+                         .def(constructor<const Matrix44f &>())
+                         .def_readwrite("v", &Quatf::v)
+                         .def_readwrite("w", &Quatf::w)
+                         
+                         
+                         .def( "getAxis", &Quatf::getAxis )
+                         .def( "getAngle", &Quatf::getAngle )
+                         
+                         .def( "getPitch", &Quatf::getPitch )
+                         .def( "getYaw", &Quatf::getYaw )
+                         .def( "getRoll", &Quatf::getRoll )
+                         
+                         .def( "dot", &Quatf::dot )
+                         
+                         .def( "length", &Quatf::length )
+                         .def( "lengthSquared", &Quatf::lengthSquared )
+                         
+                         .def( "inverse", &Quatf::inverse )
+                         
+                         .def( "normalize", &Quatf::normalize )
+                         
+                         .def( "normalized", &Quatf::normalized )
+                         .def( "log", &Quatf::log )
+                         .def( "exp", &Quatf::exp )
+                         
+                         .def( "inverted", &Quatf::inverted )
+                         
+                         .def( "invert", &Quatf::invert )
+                         
+                         .def( "set", (void(Quatf::*)(float,float,float,float) ) &Quatf::set )
+                         .def( "set", (void(Quatf::*)(const Vec3f &,const Vec3f &) ) &Quatf::set )
+                         .def( "set", (void(Quatf::*)(const Vec3f &,float) ) &Quatf::set )
+                         .def( "set", (void(Quatf::*)(float,float,float) ) &Quatf::set )
+                              
+                         .def( "set", &Quatf::getAxisAngle )
+                         
+                         .def( "set", &Quatf::toMatrix33 )
+                         .def( "set", &Quatf::toMatrix44 )
+                        
+                         .def( "set", &Quatf::lerp )
+                         .def( "set", &Quatf::slerpShortestUnenforced )
+                         
+                         .def( "set", &Quatf::slerp )
+                         .def( "set", &Quatf::squadShortestEnforced )
+                         
+                         .def( "set", &Quatf::squad )
+                         .def( "set", &Quatf::spline )
+                         
+                         .def( "set", (void(Quatf::*)(const Matrix33<float> &)) &Quatf::set )
+                         .def( "set", (void(Quatf::*)(const Matrix44<float> &)) &Quatf::set )
+                         
+                         .def(const_self + other<Quatf>())
+                         .def(const_self - other<Quatf>())
+                         .def(const_self * other<Quatf>())
+                         .def(const_self * other<float>())
+                         .def(const_self * other<Vec3f>())
+                         .def(const_self == other<Quatf>())
+                         .scope [
+                                 def( "identity", &Quatf::identity )
+                                 ]
+                         
                          /*
                                    .def(constructor<float, float>())
                                    .def(constructor<Vec2f>())
